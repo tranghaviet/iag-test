@@ -44,7 +44,6 @@ app.get('/products', (req, res) => {
 });
 
 app.post('/products', (req, res) => {
-  console.log(req.body);
   // maybe we need to group the products by id
   const newProduct = addProduct(req.body.name, req.body.price);
   res.send(newProduct);
@@ -63,7 +62,6 @@ app.post('/orders', (req, res) => {
   }, []);
 
   const newGroupedOrder = groupedOrder.map(product => placeOrder(product.id, product.quantity));
-  console.log(newGroupedOrder);
 
   const total = Object.values(newGroupedOrder).reduce((acc, order) => {
     return acc + order.product.price * order.quantity

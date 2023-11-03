@@ -25,3 +25,17 @@ Running the production build on localhost. This will create a production build, 
 ```
 NODE_ENV=production npm run dev:server
 ```
+
+## TODO
+
+### API
+
+[ ] Input Validation (joi)
+[ ] Rate Limiting
+[ ] Security Headers (HSTS, CSP, etc.
+[ ] Cross-Origin Resource Sharing (CORS) Policy
+[ ] Error Handling
+[ ] Logging 
+[ ] Data Sanitization prevent XSS (Cross-Site Scripting)
+[ ] Dependency Security (npm audit...)
+[ ] Testing (unit tests, integration tests)
