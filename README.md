@@ -30,12 +30,12 @@ NODE_ENV=production npm run dev:server
 
 ### API
 
-[ ] Input Validation (joi)
-[ ] Rate Limiting
-[ ] Security Headers (HSTS, CSP, etc.
-[ ] Cross-Origin Resource Sharing (CORS) Policy
-[ ] Error Handling
-[ ] Logging 
-[ ] Data Sanitization prevent XSS (Cross-Site Scripting)
-[ ] Dependency Security (npm audit...)
-[ ] Testing (unit tests, integration tests)
+- [ ] Input Validation (joi)
+- [ ] Rate Limiting
+- [ ] Security Headers (HSTS, CSP, etc.
+- [ ] Cross-Origin Resource Sharing (CORS) Policy
+- [ ] Error Handling
+- [ ] Logging 
+- [ ] Data Sanitization prevent XSS (Cross-Site Scripting)
+- [ ] Dependency Security (npm audit...)
+- [ ] Testing (unit tests, integration tests)
